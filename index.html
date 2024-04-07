@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İş Arama Platformu</title>
+    <!--* Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--* Boostrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!--* Css Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--* Navbar -->
+    <header id="header">
+        <div class="menu-bar">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">İş Arama Platformu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto float-end">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Tüm İşler</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Şirketler</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Güncel İşler</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-disabled="true">Staj</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-disabled="true">Diğer</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="banner text-center">
+                <h1>İş İlanları Sizleri Bekliyor</h1>
+                <p>Size uygun iş ilanlarını inceleyin.</p>
+            </div>
+        </div>
+    </header>
+    <!--* Search Job -->
+    <div class="search-job text-center">
+        <input type="text" class="form-control" placeholder="Pozisyon bilgisi girin">
+        <input type="text" class="form-control" placeholder="Şirket adı girin">
+        <input type="text" class="form-control" placeholder="Şehir adı girin">
+        <input type="button" class="btn btn-primary" value="İş Bul">
+    </div>
+    <!--* Popüler İşler -->
+    <section id="jobs">
+        <div class="container text-center">
+            <h3>POPÜLER İŞLER</h3>
+            <div>
+                <img src="resimler/sony-logo.png" alt="">
+                <img src="resimler/netflix-logo.jpeg" alt="">
+                <img src="resimler/udemig-logo.jpeg" alt="">
+                <img src="resimler/fedex-logo.png" alt="">
+                <img src="resimler/microsoft-logo.jpeg" alt="">
+                <img src="resimler/socar-logo.png" alt="">
+            </div>
+            <div>
+                <img src="resimler/tesla-logo.png" alt="">
+                <img src="resimler/jbl-logo.png" alt="">
+                <img src="resimler/doritos-logo.png" alt="">
+                <img src="resimler/redbull-logo.png" alt="">
+                <img src="resimler/gratis-logo.png" alt="">
+                <img src="resimler/cococola-logo.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+    <!--* İş İlanı Bilgilendirme -->
+    <section id="top-job">
+        <div class="container">
+            <h5>EN SON GÜNCELLEMELER</h5>
+            <div class="company-details">
+                <div class="job-update">
+                    <h4><b>Senior Frontend Developer</b></h4>
+                    <p>XYZ Software Copmany</p>
+                    <i class="bi bi-briefcase"></i><span>0 - 1 yıl</span>
+                    <br>
+                    <i class="bi bi-currency-euro"></i><span>3.500 - 4.000</span>
+                    <br>
+                    <i class="bi bi-geo-alt-fill"></i><span>İstanbul</span>
+                    <p>Yetenekler: <small>Javascript</small> <small>Html,Css</small> <small>React</small></p>
+                    <p>Detaylar için websitemizi kontrol edin. <a href="#">Daha Fazla</a></p>
+                </div>
+                <div class="apply-btn">
+                    <button type="button" class="btn btn-primary">İncele</button>
+                </div>
+            </div>
+            <div class="company-details">
+                <div class="job-update">
+                    <h4><b>Senior Frontend Developer</b></h4>
+                    <p>XYZ Software Copmany</p>
+                    <i class="bi bi-briefcase"></i><span>0 - 1 yıl</span>
+                    <br>
+                    <i class="bi bi-currency-euro"></i><span>4.000 - 4.500</span>
+                    <br>
+                    <i class="bi bi-geo-alt-fill"></i><span>Stockholm</span>
+                    <p>Yetenekler: <small>Javascript</small> <small>Html,Css</small> <small>React</small></p>
+                    <p>Detaylar için websitemizi kontrol edin. <a href="#">Daha Fazla</a></p>
+                </div>
+                <div class="apply-btn">
+                    <button type="button" class="btn btn-primary">İncele</button>
+                </div>
+            </div>
+            <div class="company-details">
+                <div class="job-update">
+                    <h4><b>Senior Frontend Developer</b></h4>
+                    <p>XYZ Software Copmany</p>
+                    <i class="bi bi-briefcase"></i><span>1 - 2 yıl</span>
+                    <br>
+                    <i class="bi bi-currency-euro"></i><span>3.500 - 4.000</span>
+                    <br>
+                    <i class="bi bi-geo-alt-fill"></i><span>İzmir</span>
+                    <p>Yetenekler: <small>Javascript</small> <small>Html,Css</small> <small>React</small></p>
+                    <p>Detaylar için websitemizi kontrol edin. <a href="#">Daha Fazla</a></p>
+                </div>
+                <div class="apply-btn">
+                    <button type="button" class="btn btn-primary">İncele</button>
+                </div>
+            </div>
+            <ul class="page-link text-center">
+                <li class="left-arrow">&#8592</li>
+                <li class="active">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li class="right-arrow">&#8594</li>
+            </ul>
+        </div>
+    </section>
+    <!--* Site Stats -->
+    <section id="site-stats">
+        <div class="container text-center">
+            <h3>İSTATİKLERİMİZ</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="stats-box">
+                                <i class="bi bi-person-fill"></i><span><small>100k +</small></span>
+                                <p>İş arayanlar</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stats-box">
+                                <i class="bi bi-person-fill"></i><span><small>500 +</small></span>
+                                <p>İş verenler</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="stats-box">
+                                <i class="bi bi-list-ol"></i><span><small>10k +</small></span>
+                                <p>Aktif iş</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stats-box">
+                                <i class="bi bi-building-fill"></i><span><small>500 +</small></span>
+                                <p>Şirketler</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--* Footer -->
+    <footer class="footer">
+        <h2 class="text-center mb-3"><i class="bi bi-browser-safari"></i>İş İlanı Sayfası</h2>
+        <p class="text-center">İş ilanlarını kaçırmamak için bizi takip etmeyi unutmayın</p>
+        <div class="social-buttons">
+            <img class="icon" src="resimler/twitter-icon.png" alt="">
+            <img class="icon" src="resimler/whatsapp-icon.png" alt="">
+            <img class="icon" src="resimler/linkedin-icon.png" alt="">
+            <img class="icon" src="resimler/instagram-icon.png" alt="">
+        </div>
+        <p class="text-center mt-5">&copy; 2024 Tüm Hakları Saklıdır</p>
+    </footer>
+</body>
+
+</html>
