@@ -1,4 +1,4 @@
-# Is_Arama_Sitesi
+# İş_Arama_Sitesi
 
 Bu sitede kullanıcıların güncel iş ilanlarına ulaşmaları hedeflenmiştir.
 
